@@ -1,0 +1,100 @@
+body{
+	text-align: center;
+	background-color: #CDF0EA;
+}
+span,p{
+	text-decoration-color: black;
+	font-family: monospace
+	line-height: 2;
+	font-size: small;
+	text-align: center;
+}
+a.links:link{
+	text-decoration: none;
+}
+a{
+	color: black;
+}
+a.links:hover{
+	color: black;
+}
+a.links1:link{
+	text-decoration: none;
+}
+a.links:hover, a.links:active {font-size: 103%;}
+
+a:link{
+	text-decoration: none;
+}
+a:hover{
+	color: black;
+}
+.division{
+	border-radius: 10px;
+	margin-left: 650px;
+	margin-top: 10px;
+	text-align: center;
+	height: 28px;
+	width: 186px;
+	border: 1px solid #b0a6a6;
+}
+.mainDiv{
+	margin-top: 200px;
+}
+.division:hover{
+	background-color:#F1F7E7 ;
+}
+.div2{
+	margin-top: 200px;
+	margin-bottom: 10px;
+}
+.head1{
+	text-align: center;
+}
+.submit{
+	background-color: black;
+	color: white;
+	font-size: small;
+}
+.loginbox-v4__header {
+    border-bottom: solid 1px #d1d7dc;
+    color: #1c1d1f;
+    display: block;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 24px 64px 24px 24px;
+}
+.signPara{
+	margin-top: 46px;
+	margin-bottom: 46px;
+}
+.mainDiv{
+      margin-top: 53px;
+}
+.signDiv{
+	height: opx;
+	margin: 10px;
+}
+.input1{
+	height: 43px;
+	    width: 300px;
+	    border: 1px solid black;
+}
+ .signupbtn {
+        color: #fff;
+    background-color: #a435f0;
+    border: 1px solid transparent;
+    width: 278px;
+    height: 37px;
+}
+.signupbtn:hover{
+	background-color: #654062;
+}
+.checkboxdiv{
+	line-height: 2rem;
+	text-align: center;
+}
+
+.terms{
+	/* text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; */
+}

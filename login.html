@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<title>login</title>
+	<script type="text/javascript">
+		function a() {
+			var name =
+				document.forms["RegForm"]["email"];
+			if (name.value == "") {
+				alert("Please enter your gmail id");
+				return false;
+			}
+			return true;
+		}
+
+		function mainPage() {
+			window.open("mainPage.html")
+		}
+	</script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body style="background-color: #ECE2E1;">
+	<h1 class="head1">Welcome back!</h1>
+	<p class="par1">Enter your email to sign in to your account</p>
+	<form name="RegForm" onsubmit="return a()" action="mainPage.html"  method="post">
+		<p class="par1">Email</p>
+		<input type="email" name="email" placeholder="abc@gmail.com"><br>
+		<input type="submit" id="next" name="Submit" value="Submit"  >
+		<!-- <button id="next" class="btn1" >Next</button> -->
+	</form>
+</body>
+
+</html>
